@@ -1,8 +1,17 @@
 {
-    "name": "symfony/framework-standard-edition",
+    "name": "neomede/symfony-skeleton",
     "license": "MIT",
     "type": "project",
-    "description": "The \"Symfony Standard Edition\" distribution",
+    "keywords": ["symfony", "sonata"],
+    "description": "Symfony Skeleton",
+    "homepage": "https://github.com/neomede/symfony-skeleton",
+    "authors": [
+        {
+            "name": "Rubén Simón Andreo",
+            "email": "rsimonandreo@gmail.com",
+            "role": "developer"
+        }
+    ],
     "autoload": {
         "psr-0": { "": "src/" }
     },
@@ -44,9 +53,6 @@
         "symfony-web-dir": "web",
         "incenteev-parameters": {
             "file": "app/config/parameters.yml"
-        },
-        "branch-alias": {
-            "dev-master": "2.4-dev"
         }
     }
 }
