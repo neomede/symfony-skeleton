@@ -18,7 +18,11 @@
         "sensio/distribution-bundle": "~2.3",
         "sensio/framework-extra-bundle": "~3.0",
         "sensio/generator-bundle": "~2.3",
-        "incenteev/composer-parameter-handler": "~2.0"
+        "incenteev/composer-parameter-handler": "~2.0",
+        "sonata-project/admin-bundle": "2.3.*@dev",
+        "sonata-project/doctrine-orm-admin-bundle": "2.2.7",
+        "sonata-project/jquery-bundle": "1.10.*@dev",
+        "knplabs/knp-menu": "1.1.*@dev"
     },
     "scripts": {
         "post-install-cmd": [
