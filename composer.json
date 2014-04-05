@@ -25,7 +25,8 @@
         "knplabs/knp-menu": "1.1.*@dev",
         "sonata-project/easy-extends-bundle": "2.1.*@dev",
         "friendsofsymfony/user-bundle": "v1.3.3",
-        "sonata-project/user-bundle": "2.2.4"
+        "sonata-project/user-bundle": "2.2.4",
+        "sonata-project/media-bundle": "2.2.*@dev"
     },
     "scripts": {
         "post-install-cmd": [
