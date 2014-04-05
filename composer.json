@@ -22,7 +22,10 @@
         "sonata-project/admin-bundle": "2.3.*@dev",
         "sonata-project/doctrine-orm-admin-bundle": "2.2.7",
         "sonata-project/jquery-bundle": "1.10.*@dev",
-        "knplabs/knp-menu": "1.1.*@dev"
+        "knplabs/knp-menu": "1.1.*@dev",
+        "sonata-project/easy-extends-bundle": "2.1.*@dev",
+        "friendsofsymfony/user-bundle": "v1.3.3",
+        "sonata-project/user-bundle": "2.2.4"
     },
     "scripts": {
         "post-install-cmd": [
