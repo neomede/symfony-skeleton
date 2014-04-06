@@ -3,6 +3,35 @@ Symfony Skeleton
 
 Esqueleto de aplicación Symfony
 
+Instalación
+-----------
+
+Primero necesitas instalar **composer** [link](https://getcomposer.org/doc/00-intro.md)
+
+1. Esqueleto Symfony
+
+    ```sh
+    composer create-project neomede/symfony-skeleton <tuProyecto/> dev-symfony
+    ```
+
+2. Esqueleto Symfony + Sonata Admin Bundle
+
+    ```sh
+    composer create-project neomede/symfony-skeleton <tuProyecto/> dev-sonata-admin
+    ```
+
+3. Esqueleto Symfony + Sonata Admin Bundle + Sonata User Bundle
+
+    ```sh
+    composer create-project neomede/symfony-skeleton <tuProyecto/> dev-sonata-user
+    ```
+
+4. Esqueleto Symfony + Sonata Admin Bundle + Sonata User Bundle + Sonata Media Bundle
+
+    ```sh
+    composer create-project neomede/symfony-skeleton <tuProyecto/> dev-sonata-media
+    ```
+
 Configuración General
 ---------------------
 

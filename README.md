@@ -8,6 +8,35 @@ Symfomy skeleton with Sonata
 Installation
 ------------
 
+First, you need to install composer [link](https://getcomposer.org/doc/00-intro.md)
+
+1. Symfony Skeleton
+
+    ```sh
+    composer create-project neomede/symfony-skeleton <yourProyect/> dev-symfony
+    ```
+
+2. Symfony Skeleton + Sonata Admin Bundle
+
+    ```sh
+    composer create-project neomede/symfony-skeleton <yourProyect/> dev-sonata-admin
+    ```
+
+3. Symfony Skeleton + Sonata Admin Bundle + Sonata User Bundle
+
+    ```sh
+    composer create-project neomede/symfony-skeleton <yourProyect/> dev-sonata-user
+    ```
+
+4. Symfony Skeleton + Sonata Admin Bundle + Sonata User Bundle + Sonata Media Bundle
+
+    ```sh
+    composer create-project neomede/symfony-skeleton <yourProyect/> dev-sonata-media
+    ```
+
+Configure
+---------
+
 Run the following command to make sure that your system meets all the technical requirements:
 
 ```sh
