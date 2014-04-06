@@ -1,15 +1,41 @@
 Symfony Skeleton
 ================
 
-<<<<<<< Updated upstream
-Esqueleto de aplicación Symfony
-=======
 Symfomy skeleton with Sonata
 
 **Spanish/Español**: Documentación en español en **README.es.md**
 
 Installation
 ------------
+
+First, you need to install composer [link](https://getcomposer.org/doc/00-intro.md)
+
+1. Symfony Skeleton
+
+    ```sh
+    composer create-project neomede/symfony-skeleton <yourProyect/> dev-symfony
+    ```
+
+2. Symfony Skeleton + Sonata Admin Bundle
+
+    ```sh
+    composer create-project neomede/symfony-skeleton <yourProyect/> dev-sonata-admin
+    ```
+
+3. Symfony Skeleton + Sonata Admin Bundle + Sonata User Bundle
+
+    ```sh
+    composer create-project neomede/symfony-skeleton <yourProyect/> dev-sonata-user
+    ```
+
+4. Symfony Skeleton + Sonata Admin Bundle + Sonata User Bundle + Sonata Media Bundle
+
+    ```sh
+    composer create-project neomede/symfony-skeleton <yourProyect/> dev-sonata-media
+    ```
+
+Configure
+---------
 
 Run the following command to make sure that your system meets all the technical requirements:
 
@@ -94,4 +120,3 @@ To serve uploaded files you can create a virtual host:
         server:
             path: http://static.vhost.dev:8080/media
     ```
->>>>>>> Stashed changes
