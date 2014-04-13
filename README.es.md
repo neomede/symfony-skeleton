@@ -44,7 +44,7 @@ php app/check.php
 También revisamos los requerimientos del servidor web en la siguiente url:
 
 ```sh
-localhost\SymfonySkeleton\web\conf.php
+localhost\SymfonySkeleton\web\config.php
 ```
 
 **Después de configurar el proyecto deberías de eliminar éste archivo.**

@@ -46,7 +46,7 @@ php app/check.php
 You need to visit the next url to check all the technical requirements in the web server and configure the symfony project:
 
 ```
-localhost\YourProjectRoute\web\conf.php
+localhost\YourProjectRoute\web\config.php
 ```
 
 **After configure your project you should remove this file.**
