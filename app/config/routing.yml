@@ -40,3 +40,7 @@ gallery:
 media:
     resource: '@SonataMediaBundle/Resources/config/routing/media.xml'
     prefix: /media
+
+users:
+    type:     rest
+    resource: Application\Sonata\UserBundle\Controller\UserRestController

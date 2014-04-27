@@ -35,7 +35,10 @@
         "sonata-project/easy-extends-bundle": "2.1.*@dev",
         "friendsofsymfony/user-bundle": "v1.3.3",
         "sonata-project/user-bundle": "2.2.4",
-        "sonata-project/media-bundle": "2.2.*@dev"
+        "sonata-project/core-bundle": "2.2.*@dev",
+        "sonata-project/media-bundle": "2.2.*@dev",
+        "friendsofsymfony/rest-bundle": "1.4.*@dev",
+        "jms/serializer-bundle": "0.13.*@dev"
     },
     "scripts": {
         "post-install-cmd": [
