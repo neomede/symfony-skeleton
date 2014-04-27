@@ -34,6 +34,12 @@ First, you need to install composer [link](https://getcomposer.org/doc/00-intro.
     composer create-project neomede/symfony-skeleton <yourProyect/> dev-sonata-media
     ```
 
+5. Symfony Skeleton + Sonata Admin Bundle + Sonata User Bundle + Sonata Media Bundle + FOS Rest Bundle + JMS Serializer Bundle
+
+    ```sh
+    composer create-project neomede/symfony-skeleton <tuProyecto/> dev-fos-rest
+    ```
+
 Configure
 ---------
 
