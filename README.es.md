@@ -131,6 +131,8 @@ Creación de la Base de Datos
 Para crear la BBDD usamos el siguiente comando:
 
 ```sh
+php app/console doctrine:database:create
+
 php app/console doctrine:schema:update --force
 ```
 

@@ -136,6 +136,8 @@ Creating Database
 To create database we use the following command:
 
 ```sh
+php app/console doctrine:database:create
+
 php app/console doctrine:schema:update --force
 ```
 
