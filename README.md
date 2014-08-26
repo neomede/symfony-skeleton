@@ -128,3 +128,19 @@ To serve uploaded files you can create a virtual host:
         server:
             path: http://static.vhost.dev:8080/media
     ```
+
+
+Creating Database
+----------------------------
+
+To create database we use the following command:
+
+```sh
+php app/console doctrine:schema:update --force
+```
+
+To create the superuser:
+
+```sh
+php app/console fos:user:create admin --super-admin
+```

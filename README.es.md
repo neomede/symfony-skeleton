@@ -124,3 +124,18 @@ Para que funcionen los ficheros subidos hay que crear un virtual host para que s
         server:
             path: http://static.vhost.dev:8080/media
     ```
+
+Creación de la Base de Datos
+----------------------------
+
+Para crear la BBDD usamos el siguiente comando:
+
+```sh
+php app/console doctrine:schema:update --force
+```
+
+Una vez creada la BBDD creamos al super usuario:
+
+```sh
+php app/console fos:user:create admin --super-admin
+```
